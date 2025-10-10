@@ -1,7 +1,7 @@
 {
-  "name": "Hugoplate",
-  "short_name": "Hugoplate",
-  "lang": "en-us",
+  "name": "XLaptop - 为你的工作增效",
+  "short_name": "XLaptop - 为你的工作增效",
+  "lang": "zh-CN",
   "display": "fullscreen",
   "orientation" : "portrait",
   "start_url": "http://localhost:1313/?utm_source=web_app_manifest",
