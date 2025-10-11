@@ -33,7 +33,7 @@ testimonials:
     designation: "纳米香蕉"
     link: "https://nano.xlap.top"
     avatar: "/images/avatar-sm.png"
-    content: "这是一个革命性的AI 图像编辑模型，使用自然语言提示变换照片。 · 它是如何工作的？ 只需上传图像并用自然语言描述您想要的编辑。"
+    content: "这是一个革命性的AI 图像编辑模型，使用自然语言提示变换照片。 只需上传图像并用自然语言描述您想要的编辑。"
 
   - name: "SoraX"
     designation: "Sora2视频生成"

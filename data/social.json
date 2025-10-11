@@ -1,21 +1,25 @@
 {
   "main": [
     {
-      "name": "weixin",
+      "key": "wechat",
+      "name": "企业微信",
       "icon": "fab fa-weixin",
       "link": "https://wx.qq.com/xlaptop"
     },
     {
-      "name": "telegram",
-      "icon": "fab fa-telegram",
-      "link": "https://web.telegram.org"
+      "key": "blog",
+      "name": "博客",
+      "icon": "fab fa-chrome",
+      "link": "https://blog.xlap.top"
     },
     {
+      "key": "github",
       "name": "github",
       "icon": "fab fa-github",
       "link": "https://github.com/liuchaowen"
     },
     {
+      "key": "facebook",
       "name": "facebook",
       "icon": "fab fa-facebook",
       "link": "https://www.facebook.com/profile.php?id=61575180195373"
