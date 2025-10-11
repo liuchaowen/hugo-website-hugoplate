@@ -3,7 +3,7 @@ extended = true
 min = "0.144.0"
 
 [[imports]]
-path = "../themes/hugoplate"
+path = "github.com/liuchaowen/hugo-theme-hugoplate"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/search"
