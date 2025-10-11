@@ -18,7 +18,7 @@ features:
       - "10+ 工作站点"
       - "2year+ 网站已运营时长"
       - "1.5k+ 已累计用户"
-      - "500+ AI接口接入"
+      - "100+ 大模型接入"
     button:
       enable: false
       label: "Get Started Now"
