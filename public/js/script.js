@@ -12499,6 +12499,10 @@ if (hasSearchWrapper) {
   new Swiper(".testimonial-slider", {
     spaceBetween: 24,
     loop: true,
+    autoplay: {
+      delay: 5000, // 每5秒自动切换
+      disableOnInteraction: false, // 用户交互后不停止自动播放
+    },
     pagination: {
       el: ".testimonial-slider-pagination",
       type: "bullets",

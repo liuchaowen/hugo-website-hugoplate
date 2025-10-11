@@ -6,7 +6,7 @@ banner:
   image: "/images/banner.png"
   button:
     enable: true
-    label: "开始使用API"
+    label: "开始使用 X API"
     link: "https://api.xlap.top"
 
 # Features
