@@ -82,7 +82,7 @@
   
 
 
-<title>Blog Posts</title>
+<title>最新资讯</title>
 
 
 
@@ -183,13 +183,13 @@
 
 
 
-<meta property="og:title" content="Blog Posts" />
+<meta property="og:title" content="最新资讯" />
 <meta property="og:description" content="this is meta description" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:1313/blog/" />
 
 
-<meta name="twitter:title" content="Blog Posts" />
+<meta name="twitter:title" content="最新资讯" />
 <meta name="twitter:description" content="this is meta description" />
 
 
@@ -219,8 +219,8 @@
 <script>
   let indexURL = "http://localhost:1313/searchindex.json";
   let includeSectionsInSearch = ["blog"];
-  let search_no_results = "0 results for";
-  let search_initial_message = "";
+  let search_no_results = "暂无结果";
+  let search_initial_message = "输入关键字...";
 </script>
 
 
@@ -505,6 +505,48 @@
       class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
       
       
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/"
+              >首页</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/blog"
+              >资讯</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/about"
+              >关于</a
+            >
+          </li>
+        
+      
       
         <li class="mt-4 inline-block lg:hidden">
           <a
@@ -673,12 +715,12 @@
             data-search-input
             autocomplete="off"
             aria-label="Search"
-            placeholder="" />
+            placeholder="搜索资讯..." />
         </div>
         <div class="search-wrapper-body">
           <div class="search-result" data-search-result></div>
           <span class="search-result-empty">
-            
+            输入关键字...
           </span>
         </div>
         <div class="search-wrapper-footer">
@@ -706,7 +748,7 @@
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
               </svg>
             </kbd>
-            to navigate
+            前往
           </span>
           <span>
             <kbd>
@@ -722,11 +764,11 @@
                   d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z" />
               </svg>
             </kbd>
-            to select
+            选择
           </span>
           <span class="search-result-info"></span>
           <span data-target="close-search-modal">
-            <kbd>ESC</kbd> to close
+            <kbd>ESC</kbd> 关闭
           </span>
         </div>
       </div>
@@ -742,7 +784,7 @@
   <div class="container text-center">
     <div
       class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-14">
-      <h1>Blog Posts</h1>
+      <h1>最新资讯</h1>
       
 
 
@@ -751,7 +793,7 @@
 <ul class="mt-6 inline-flex space-x-1 capitalize">
   <li>
     <a class="text-primary dark:text-darkmode-primary" href="http://localhost:1313/">
-      Home
+      首页
     </a>
     <span class="inlin-block mr-1">/</span>
   </li>
@@ -760,7 +802,7 @@
   
   <li>
     <span class="text-primary dark:text-darkmode-primary">
-      Blog Posts
+      最新资讯
     </span>
   </li>
 </ul>
@@ -862,193 +904,31 @@
         <picture>
           <source
             
-              srcset="/images/image-placeholder_hu_c8971dd714d7d967.webp"
+              srcset="/images/post-2_hu_8b6801da55a725e2.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/image-placeholder_hu_7feb4cff3f0f2f38.webp"
+              srcset="/images/post-2_hu_67e25c812d9f2f5c.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/image-placeholder_hu_aa8934e738977bd1.webp"
+              srcset="/images/post-2_hu_9aeeaf71cc4bb914.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/image-placeholder_hu_c6a26df46efa63e0.webp"
+              srcset="/images/post-2_hu_aac92580e8a36256.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/image-placeholder_hu_8da812934bbff7ba.png"
+              src="/images/post-2_hu_1938716ea1043363.png"
             class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-  
-  <h4 class="mb-3">
-    <a href="/blog/post-1/">
-      How to build an Application with modern Technology
-    </a>
-  </h4>
-  
-  
-    <ul class="mb-4">
-      <li class="mr-4 inline-block">
-        <a href="/authors/john-doe/">
-          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
-        </a>
-      </li>
-      <li class="mr-4 inline-block">
-        <i class="fa-regular fa-folder mr-1"></i>
-        
-          <a
-            href="/categories/application/"
-            class="ms-1"
-            >Application
-              ,
-            
-          </a>
-        
-          <a
-            href="/categories/data/"
-            class="ms-1"
-            >Data
-          </a>
-        
-      </li>
-    </ul>
-  
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-</p>
-  <a class="btn btn-outline-primary btn-sm" href="/blog/post-1/">
-    
-  </a>
-</div>
-
-              </div>
-            
-              <div class="md:col-6 mb-14">
-                <div class="bg-body dark:bg-darkmode-body">
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/images/image-placeholder_hu_c8971dd714d7d967.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/images/image-placeholder_hu_7feb4cff3f0f2f38.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/images/image-placeholder_hu_aa8934e738977bd1.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/images/image-placeholder_hu_c6a26df46efa63e0.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/images/image-placeholder_hu_8da812934bbff7ba.png"
-            class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
+            alt="GhibliX生成吉卜力风格图"
+            width="1472"
+            height="704" />
         </picture>
       
       
@@ -1063,41 +943,33 @@
   
   <h4 class="mb-3">
     <a href="/blog/post-2/">
-      How to build an Application with modern Technology
+      GhibliX生成吉卜力风格图
     </a>
   </h4>
   
   
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <a href="/authors/sam-wilson/">
-          <i class="fa-regular fa-circle-user mr-2"></i>Sam Wilson
+        <a href="/authors/cheman/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Cheman
         </a>
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/categories/technology/"
+            href="/categories/ai%e7%ab%99%e7%82%b9/"
             class="ms-1"
-            >Technology
-              ,
-            
-          </a>
-        
-          <a
-            href="/categories/data/"
-            class="ms-1"
-            >Data
+            >Ai站点
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+  <p class="mb-6">专业AI图片风格转换平台，将生活照变成漫画插画，为创作者和粉丝打造童话体验。一款免费在线的吉卜力风格艺术生成器。无论是将照片转化为魔幻的吉卜力风格场景，还是将文字描述转化为艺术作品，GhibliX都能轻松实现。
 </p>
   <a class="btn btn-outline-primary btn-sm" href="/blog/post-2/">
-    
+    查看更多
   </a>
 </div>
 
@@ -1186,31 +1058,31 @@
         <picture>
           <source
             
-              srcset="/images/image-placeholder_hu_c8971dd714d7d967.webp"
+              srcset="/images/post-3_hu_94a14577533dc600.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/image-placeholder_hu_7feb4cff3f0f2f38.webp"
+              srcset="/images/post-3_hu_f4cfe9cb7008367f.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/image-placeholder_hu_aa8934e738977bd1.webp"
+              srcset="/images/post-3_hu_969dee798de50b51.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/image-placeholder_hu_c6a26df46efa63e0.webp"
+              srcset="/images/post-3_hu_355d8de11d0f1875.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/image-placeholder_hu_8da812934bbff7ba.png"
+              src="/images/post-3_hu_256b058bb3231726.png"
             class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
+            alt="Nano Banana X 纳米香蕉的魅力"
+            width="1472"
+            height="704" />
         </picture>
       
       
@@ -1225,33 +1097,33 @@
   
   <h4 class="mb-3">
     <a href="/blog/post-3/">
-      How to build an Application with modern Technology
+      Nano Banana X 纳米香蕉的魅力
     </a>
   </h4>
   
   
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <a href="/authors/john-doe/">
-          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
+        <a href="/authors/cheman/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Cheman
         </a>
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/categories/software/"
+            href="/categories/ai%e7%ab%99%e7%82%b9/"
             class="ms-1"
-            >Software
+            >Ai站点
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+  <p class="mb-6">以其卓越的角色与物件一致性、支援自然语言对话式编辑以及多张图片融合等功能闻名。 用户能够透过简单的文字指令，在保留人物或物件特徵的基础上进行换装、更换背景等图像编辑，并实现多图合成与深度逻辑推理。
 </p>
   <a class="btn btn-outline-primary btn-sm" href="/blog/post-3/">
-    
+    查看更多
   </a>
 </div>
 
@@ -1340,31 +1212,31 @@
         <picture>
           <source
             
-              srcset="/images/image-placeholder_hu_c8971dd714d7d967.webp"
+              srcset="/images/post-4_hu_d98c06960fec89b5.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/image-placeholder_hu_7feb4cff3f0f2f38.webp"
+              srcset="/images/post-4_hu_daee60dae1d75654.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/image-placeholder_hu_aa8934e738977bd1.webp"
+              srcset="/images/post-4_hu_43791dfdcc897ff0.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/image-placeholder_hu_c6a26df46efa63e0.webp"
+              srcset="/images/post-4_hu_14610516702842ca.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/image-placeholder_hu_8da812934bbff7ba.png"
+              src="/images/post-4_hu_80d5725cccda8d00.png"
             class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
+            alt="Sora2生成高质量视频"
+            width="1472"
+            height="704" />
         </picture>
       
       
@@ -1379,33 +1251,187 @@
   
   <h4 class="mb-3">
     <a href="/blog/post-4/">
-      How to build an Application with modern Technology
+      Sora2生成高质量视频
     </a>
   </h4>
   
   
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <a href="/authors/john-doe/">
-          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
+        <a href="/authors/cheman/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Cheman
         </a>
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/categories/architecture/"
+            href="/categories/ai%e7%ab%99%e7%82%b9/"
             class="ms-1"
-            >Architecture
+            >Ai站点
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+  <p class="mb-6">用户只需录制一段自我视频，AI即可深度学习其外貌与声线，随后将真人形象无缝嵌入AI构建的任意奇幻场景，让每个人都能零门槛化身主演，轻松导演并出镜专属创意大片，瞬间实现电影级视觉幻想，引爆社交分享热潮。
 </p>
   <a class="btn btn-outline-primary btn-sm" href="/blog/post-4/">
+    查看更多
+  </a>
+</div>
+
+              </div>
+            
+              <div class="md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/images/post-1_hu_6f220757a65057d4.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/post-1_hu_694084c7c839e492.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/post-1_hu_5b3eba8e00c95219.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/post-1_hu_a86394270ed4e3dd.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/post-1_hu_4e4337c7c3ac2591.png"
+            class=" mb-6 w-full rounded img"
+            alt="X API，解锁未来之门!"
+            width="1280"
+            height="618" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+  
+  <h4 class="mb-3">
+    <a href="/blog/post-1/">
+      X API，解锁未来之门!
+    </a>
+  </h4>
+  
+  
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="/authors/cheman/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Cheman
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        
+          <a
+            href="/categories/x%e7%ab%99%e7%82%b9/"
+            class="ms-1"
+            >X站点
+          </a>
+        
+      </li>
+    </ul>
+  
+  <p class="mb-6">OpenAI、Claude、Gemini、Midjourney、阿里、百度、讯飞、腾讯、360、智谱、零一万物……全部OpenAI格式统一输出。个人开发者、企业、翻译、写作、绘图、代码、客服、教育、导航站、镜像站、代理渠道，一站式搞定。
+</p>
+  <a class="btn btn-outline-primary btn-sm" href="/blog/post-1/">
+    查看更多
   </a>
 </div>
 
@@ -1434,47 +1460,23 @@
 
   
     <div class="mb-8">
-      <h5 class="mb-6"></h5>
+      <h5 class="mb-6">分类</h5>
       <div class="bg-light dark:bg-darkmode-light rounded p-8">
         <ul class="space-y-4">
           
             <li>
               <a
                 class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
-                href="/categories/application/">
-                Application <span>( 1 )</span>
+                href="/categories/ai%E7%AB%99%E7%82%B9/">
+                AI站点 <span>( 3 )</span>
               </a>
             </li>
           
             <li>
               <a
                 class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
-                href="/categories/architecture/">
-                Architecture <span>( 1 )</span>
-              </a>
-            </li>
-          
-            <li>
-              <a
-                class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
-                href="/categories/data/">
-                Data <span>( 2 )</span>
-              </a>
-            </li>
-          
-            <li>
-              <a
-                class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
-                href="/categories/software/">
-                Software <span>( 1 )</span>
-              </a>
-            </li>
-          
-            <li>
-              <a
-                class="hover:text-primary dark:hover:text-darkmode-primary  flex justify-between"
-                href="/categories/technology/">
-                Technology <span>( 1 )</span>
+                href="/categories/x%E7%AB%99%E7%82%B9/">
+                X站点 <span>( 1 )</span>
               </a>
             </li>
           
@@ -1489,47 +1491,79 @@
 
   
     <div class="mb-8">
-      <h5 class="mb-6"></h5>
+      <h5 class="mb-6">标签</h5>
       <div class="bg-light dark:bg-darkmode-light rounded p-6">
         <ul>
           
             <li class="inline-block">
               <a
                 class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
-                href="/tags/nextjs/">
-                Nextjs
+                href="/tags/ai%E7%AB%99%E7%82%B9/">
+                AI站点
               </a>
             </li>
           
             <li class="inline-block">
               <a
                 class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
-                href="/tags/silicon/">
-                Silicon
+                href="/tags/ghibli/">
+                Ghibli
               </a>
             </li>
           
             <li class="inline-block">
               <a
                 class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
-                href="/tags/software/">
-                Software
+                href="/tags/nano-banana/">
+                Nano-Banana
               </a>
             </li>
           
             <li class="inline-block">
               <a
                 class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
-                href="/tags/tailwind/">
-                Tailwind
+                href="/tags/sora/">
+                Sora
               </a>
             </li>
           
             <li class="inline-block">
               <a
                 class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
-                href="/tags/technology/">
-                Technology
+                href="/tags/sora2/">
+                Sora2
+              </a>
+            </li>
+          
+            <li class="inline-block">
+              <a
+                class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
+                href="/tags/video/">
+                Video
+              </a>
+            </li>
+          
+            <li class="inline-block">
+              <a
+                class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
+                href="/tags/x-api/">
+                X API
+              </a>
+            </li>
+          
+            <li class="inline-block">
+              <a
+                class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
+                href="/tags/%E5%90%89%E5%8D%9C%E5%8A%9B/">
+                吉卜力
+              </a>
+            </li>
+          
+            <li class="inline-block">
+              <a
+                class="hover:bg-primary dark:bg-darkmode-body dark:hover:bg-darkmode-primary dark:hover:text-text-dark  m-1 block rounded bg-white px-3 py-1 hover:text-white"
+                href="/tags/%E7%BA%B3%E7%B1%B3%E9%A6%99%E8%95%89/">
+                纳米香蕉
               </a>
             </li>
           
@@ -1658,6 +1692,24 @@
       </div>
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
         <ul>
+          
+          <li class="m-3 inline-block">
+            <a  href="
+                  /about
+                ">关于</a>
+          </li>
+          
+          <li class="m-3 inline-block">
+            <a  href="
+                  /privacy-policy
+                ">隐私政策</a>
+          </li>
+          
+          <li class="m-3 inline-block">
+            <a  href="
+                  /contact
+                ">联系</a>
+          </li>
           
         </ul>
       </div>

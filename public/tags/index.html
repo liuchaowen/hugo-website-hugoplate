@@ -216,8 +216,8 @@
 <script>
   let indexURL = "http://localhost:1313/searchindex.json";
   let includeSectionsInSearch = ["blog"];
-  let search_no_results = "0 results for";
-  let search_initial_message = "";
+  let search_no_results = "暂无结果";
+  let search_initial_message = "输入关键字...";
 </script>
 
 
@@ -502,6 +502,48 @@
       class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
       
       
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/"
+              >首页</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/blog"
+              >资讯</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/about"
+              >关于</a
+            >
+          </li>
+        
+      
       
         <li class="mt-4 inline-block lg:hidden">
           <a
@@ -670,12 +712,12 @@
             data-search-input
             autocomplete="off"
             aria-label="Search"
-            placeholder="" />
+            placeholder="搜索资讯..." />
         </div>
         <div class="search-wrapper-body">
           <div class="search-result" data-search-result></div>
           <span class="search-result-empty">
-            
+            输入关键字...
           </span>
         </div>
         <div class="search-wrapper-footer">
@@ -703,7 +745,7 @@
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
               </svg>
             </kbd>
-            to navigate
+            前往
           </span>
           <span>
             <kbd>
@@ -719,11 +761,11 @@
                   d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z" />
               </svg>
             </kbd>
-            to select
+            选择
           </span>
           <span class="search-result-info"></span>
           <span data-target="close-search-modal">
-            <kbd>ESC</kbd> to close
+            <kbd>ESC</kbd> 关闭
           </span>
         </div>
       </div>
@@ -739,7 +781,7 @@
   <div class="container text-center">
     <div
       class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-14">
-      <h1>Tags</h1>
+      <h1>标签</h1>
       
 
 
@@ -748,7 +790,7 @@
 <ul class="mt-6 inline-flex space-x-1 capitalize">
   <li>
     <a class="text-primary dark:text-darkmode-primary" href="http://localhost:1313/">
-      Home
+      首页
     </a>
     <span class="inlin-block mr-1">/</span>
   </li>
@@ -757,7 +799,7 @@
   
   <li>
     <span class="text-primary dark:text-darkmode-primary">
-      Tags
+      标签
     </span>
   </li>
 </ul>
@@ -778,31 +820,9 @@
           
             <li class="m-3 inline-block">
               <a
-                href="http://localhost:1313/tags/tailwind/"
+                href="http://localhost:1313/tags/ai%E7%AB%99%E7%82%B9/"
                 class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
-                Tailwind
-                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
-                  3
-                </span>
-              </a>
-            </li>
-          
-            <li class="m-3 inline-block">
-              <a
-                href="http://localhost:1313/tags/technology/"
-                class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
-                Technology
-                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
-                  2
-                </span>
-              </a>
-            </li>
-          
-            <li class="m-3 inline-block">
-              <a
-                href="http://localhost:1313/tags/nextjs/"
-                class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
-                Nextjs
+                AI站点
                 <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
                   1
                 </span>
@@ -811,9 +831,9 @@
           
             <li class="m-3 inline-block">
               <a
-                href="http://localhost:1313/tags/silicon/"
+                href="http://localhost:1313/tags/ghibli/"
                 class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
-                Silicon
+                Ghibli
                 <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
                   1
                 </span>
@@ -822,9 +842,75 @@
           
             <li class="m-3 inline-block">
               <a
-                href="http://localhost:1313/tags/software/"
+                href="http://localhost:1313/tags/nano-banana/"
                 class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
-                Software
+                Nano-Banana
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  1
+                </span>
+              </a>
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                href="http://localhost:1313/tags/sora/"
+                class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
+                Sora
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  1
+                </span>
+              </a>
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                href="http://localhost:1313/tags/sora2/"
+                class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
+                Sora2
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  1
+                </span>
+              </a>
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                href="http://localhost:1313/tags/video/"
+                class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
+                Video
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  1
+                </span>
+              </a>
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                href="http://localhost:1313/tags/x-api/"
+                class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
+                X API
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  1
+                </span>
+              </a>
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                href="http://localhost:1313/tags/%E5%90%89%E5%8D%9C%E5%8A%9B/"
+                class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
+                吉卜力
+                <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
+                  1
+                </span>
+              </a>
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                href="http://localhost:1313/tags/%E7%BA%B3%E7%B1%B3%E9%A6%99%E8%95%89/"
+                class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
+                纳米香蕉
                 <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
                   1
                 </span>
@@ -948,6 +1034,24 @@
       </div>
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
         <ul>
+          
+          <li class="m-3 inline-block">
+            <a  href="
+                  /about
+                ">关于</a>
+          </li>
+          
+          <li class="m-3 inline-block">
+            <a  href="
+                  /privacy-policy
+                ">隐私政策</a>
+          </li>
+          
+          <li class="m-3 inline-block">
+            <a  href="
+                  /contact
+                ">联系</a>
+          </li>
           
         </ul>
       </div>

@@ -6,7 +6,7 @@ contentDir = "content/chinese"
 weight = 1
 ################ English language ##################
 [en]
-languageName = "En"
+languageName = "English"
 languageCode = "en-US"
 contentDir = "content/english"
-weight = 1
+weight = 2

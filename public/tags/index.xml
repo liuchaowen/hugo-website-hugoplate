@@ -9,38 +9,66 @@
     <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Nextjs</title>
-      <link>http://localhost:1313/tags/nextjs/</link>
+      <title>AI站点</title>
+      <link>http://localhost:1313/tags/ai%E7%AB%99%E7%82%B9/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nextjs/</guid>
+      <guid>http://localhost:1313/tags/ai%E7%AB%99%E7%82%B9/</guid>
       <description></description>
     </item>
     <item>
-      <title>Silicon</title>
-      <link>http://localhost:1313/tags/silicon/</link>
+      <title>Ghibli</title>
+      <link>http://localhost:1313/tags/ghibli/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/silicon/</guid>
+      <guid>http://localhost:1313/tags/ghibli/</guid>
       <description></description>
     </item>
     <item>
-      <title>Software</title>
-      <link>http://localhost:1313/tags/software/</link>
+      <title>Nano-Banana</title>
+      <link>http://localhost:1313/tags/nano-banana/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/software/</guid>
+      <guid>http://localhost:1313/tags/nano-banana/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tailwind</title>
-      <link>http://localhost:1313/tags/tailwind/</link>
+      <title>Sora</title>
+      <link>http://localhost:1313/tags/sora/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tailwind/</guid>
+      <guid>http://localhost:1313/tags/sora/</guid>
       <description></description>
     </item>
     <item>
-      <title>Technology</title>
-      <link>http://localhost:1313/tags/technology/</link>
+      <title>Sora2</title>
+      <link>http://localhost:1313/tags/sora2/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technology/</guid>
+      <guid>http://localhost:1313/tags/sora2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>http://localhost:1313/tags/video/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>X API</title>
+      <link>http://localhost:1313/tags/x-api/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/x-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>吉卜力</title>
+      <link>http://localhost:1313/tags/%E5%90%89%E5%8D%9C%E5%8A%9B/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E5%90%89%E5%8D%9C%E5%8A%9B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>纳米香蕉</title>
+      <link>http://localhost:1313/tags/%E7%BA%B3%E7%B1%B3%E9%A6%99%E8%95%89/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E7%BA%B3%E7%B1%B3%E9%A6%99%E8%95%89/</guid>
       <description></description>
     </item>
   </channel>
